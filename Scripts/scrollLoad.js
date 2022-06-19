@@ -5,7 +5,6 @@ export const scrollLoad = (gallery, grid, endElement) => {
   const observer = new IntersectionObserver(
     async (entries) => {
       if (entries[0].isIntersecting) {
-        // console.log("я тебя вижу");
         const photos = await getData();
         const cards = photos.map(createCardPhoto);
 
@@ -16,7 +15,7 @@ export const scrollLoad = (gallery, grid, endElement) => {
       }
     },
     {
-      rootMargin: "170px",
+      rootMargin: "250px",
     }
   );
 

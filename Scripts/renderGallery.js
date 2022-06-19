@@ -26,7 +26,4 @@ export const renderGallery = (wrapper, photos) => {
     wrapper.append(endElem);
     scrollLoad(gallery, grid, endElem);
   });
-
-  // gallery.append(...cards);
-  // grid.appended(cards)
 };
