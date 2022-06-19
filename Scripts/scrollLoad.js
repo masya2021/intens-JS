@@ -14,9 +14,8 @@ export const scrollLoad = (gallery, grid, endElement) => {
         });
       }
     },
-
     {
-      rootMargin: "190px",
+      rootMargin: "250px",
     }
   );
 
